@@ -37,8 +37,8 @@ class Program
     }
 
     string sentence = args[0];
-    string audioPath = "output.mp3";
-    string videoPath = "output.mp4";
+    string audioPath = "media/output.mp3";
+    string videoPath = "media/output.mp4";
 
     // Generate audio using Azure Text-to-Speech
     await GenerateSpeechAsync(sentence, audioPath, subscriptionKey, serviceRegion);
